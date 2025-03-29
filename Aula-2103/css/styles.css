@@ -5,8 +5,29 @@ body {
 
 .container-drone {
     border: 2px solid #dc143c;
-    weight: 200px;
+    width: 50%;
+    min-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;;
+} 
 
+.container-blue {background-color: royalblue;}
+.container-red{background-color: #dc143c;}
+.container-green{background-color: #008000;}
+
+
+.container-drone img {
+    width: 100%;
+    border-radius: 8px 80px 8px 80px;
+
+}
+
+
+ul, ol {
+    list-style: none;
+    
 }
 
 h1  {
